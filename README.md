@@ -13,9 +13,12 @@ Este proyecto de Data Science tiene como objetivo construir un modelo predictivo
 
 ## 📁 Archivos incluidos
 
-- `SMART_FLIGHTS.ipynb`: notebook final con todo el análisis
-- `resultados_modelos.csv`: tabla con métricas comparativas
-- `presentacion_final.pdf`: resumen ejecutivo del proyecto
+- `SMART_FLIGHTS_II_Alonso_Castillo.ipynb`: notebook final con todo el análisis
+- ## 📎 Acceso al archivo CSV
+Debido a restricciones de tamaño en GitHub, el archivo completo de datos (`vuelos_2019.csv`) se encuentra disponible en Google Drive:
+🔗 [Descargar archivo CSV desde Google Drive] https://drive.google.com/file/d/1h1d5C24Pb_fsC0bNtqDy9TMK2W4xdokY/view?usp=drive_link
+
+- `SMART_FLIGHT.pdf`: resumen ejecutivo del proyecto
 
 ## 🔍 Fuente de datos
 
@@ -31,11 +34,5 @@ Según el análisis realizado, el modelo KNN (k=5) fue el más efectivo para det
 ✏️ Proyecto realizado por Patricia Alonso Castillo – Comisión 61750  
 Curso de Ciencia de Datos – 2025
 
-
-## 📎 Acceso al archivo CSV
-
-Debido a restricciones de tamaño en GitHub, el archivo completo de datos (`vuelos_2019.csv`) se encuentra disponible en Google Drive:
-
-🔗 [Descargar archivo CSV desde Google Drive] https://drive.google.com/file/d/1h1d5C24Pb_fsC0bNtqDy9TMK2W4xdokY/view?usp=drive_link
 
 
