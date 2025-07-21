@@ -42,7 +42,7 @@ Durante el desarrollo se utilizó una interfaz interactiva construida con `ipywi
 Este panel desplegable permitía ejecutar el modelo KNN y predecir si un vuelo se iba a demorar o no, en base a los parámetros elegidos por el usuario.
 
 ⚠️ **Nota**: GitHub no soporta widgets interactivos, por lo que este componente fue **comentado** en la versión subida.  
-Si deseás probar la funcionalidad completa, descargá el notebook original (`SMART_FLIGHTS_II_Alonso_Castillo.ipynb`) y ejecutalo en Google Colab o Jupyter.
+Si deseás probar la funcionalidad completa, descargá el notebook original (🔗 https://colab.research.google.com/drive/1cRa_0ar98U_HRGRUB2BoIuiMMqEmp7rA?usp=drive_link) y ejecutalo en Google Colab o Jupyter.
 
 ### 🖼️ Ejemplo del panel desplegable:
 ![Panel interactivo con widgets](widgets_panel_resized.png)
