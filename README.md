@@ -11,6 +11,7 @@ Además, se complementa con un análisis no supervisado para identificar **tipol
 - Limpieza y transformación de variables
 - Modelado con algoritmos de clasificación supervisada
 - Evaluación y comparación de métricas (Accuracy, Precision, Recall, F1-Score, ROC AUC)
+- Ensemble Modeling (Voting Classifier)
 - Análisis no supervisado (K-Means) para segmentación de aeropuertos
 - Visualizaciones ejecutivas e insights clave
 - Recomendación del modelo más efectivo
