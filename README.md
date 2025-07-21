@@ -1,35 +1,57 @@
-# SMART FLIGHTS – Predicción de Demoras en Vuelos ✈️
+# ✈️ SMART FLIGHTS – Predicción de Demoras en Vuelos
 
-Este proyecto de Data Science tiene como objetivo construir un modelo predictivo que permita anticipar demoras en vuelos comerciales en Estados Unidos, utilizando datos históricos del año 2019.
+Este proyecto de Ciencia de Datos tiene como objetivo construir un modelo predictivo capaz de **anticipar demoras en vuelos comerciales en Estados Unidos**, utilizando datos históricos del año 2019.  
+Además, se complementa con un análisis no supervisado para identificar **tipologías de aeropuertos** según sus condiciones operativas y climáticas.
 
-## 📌 Contenido
+---
+
+## 📌 Contenidos del Proyecto
 
 - Análisis exploratorio de datos (EDA)
 - Limpieza y transformación de variables
-- Evaluación de múltiples modelos de clasificación
-- Comparación de métricas (accuracy, recall, F1-score)
-- Visualizaciones ejecutivas e insights
+- Modelado con algoritmos de clasificación supervisada
+- Evaluación y comparación de métricas (Accuracy, Precision, Recall, F1-Score, ROC AUC)
+- Análisis no supervisado (K-Means) para segmentación de aeropuertos
+- Visualizaciones ejecutivas e insights clave
 - Recomendación del modelo más efectivo
 
-## 📁 Archivos incluidos
+---
 
-- `SMART_FLIGHTS_II_Alonso_Castillo.ipynb`: notebook final con todo el análisis
-- ## 📎 Acceso al archivo CSV
-Debido a restricciones de tamaño en GitHub, el archivo completo de datos (`vuelos_2019.csv`) se encuentra disponible en Google Drive:
-🔗 [Descargar archivo CSV desde Google Drive] https://drive.google.com/file/d/1h1d5C24Pb_fsC0bNtqDy9TMK2W4xdokY/view?usp=drive_link
+## 📂 Archivos del Repositorio
 
-- `SMART_FLIGHT.pdf`: resumen ejecutivo del proyecto
+- `SMART_FLIGHTS_II_Alonso_Castillo.ipynb`: notebook final con todo el desarrollo del análisis
+- `SMART_FLIGHTS.pdf`: presentación ejecutiva del proyecto en formato PDF
 
-## 🔍 Fuente de datos
+📎 **Acceso al dataset completo (CSV)**  
+Debido al límite de tamaño de GitHub, el archivo `vuelos_2019.csv` se encuentra alojado en Google Drive:  
+🔗 [Descargar CSV desde Google Drive](https://drive.google.com/file/d/1h1d5C24Pb_fsC0bNtqDy9TMK2W4xdokY/view?usp=drive_link)
 
-Los datos fueron obtenidos desde Kaggle:  
-[2019 Airline Delays and Cancellations](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
-
-## 🧠 Modelo recomendado
-
-Según el análisis realizado, el modelo KNN (k=5) fue el más efectivo para detectar vuelos demorados, priorizando la métrica Recall.
+📎 **Acceso al modelo entrenado (`modelo_knn_pipeline.pkl`)**  
+El modelo final en formato `.pkl` también puede descargarse desde Drive:  
+🔗 [Descargar modelo KNN serializado](AQUÍ_VA_EL_ENLACE_A_TU_PKL)
 
 ---
+
+## 🧠 Modelo Recomendado
+
+Tras evaluar múltiples algoritmos (Regresión Logística, Árbol de Decisión, XGBoost, KNN), el modelo **K-Nearest Neighbors (k=5)** fue el más efectivo para detectar vuelos demorados, priorizando la métrica **Recall**, que mide la capacidad del modelo para **identificar casos positivos reales**.
+
+Este enfoque resulta útil en contextos donde es **preferible emitir una alerta preventiva** ante una posible demora, aunque implique algunas falsas alarmas.
+
+---
+
+## 📊 Fuente de Datos
+
+Los datos fueron obtenidos desde Kaggle:  
+[📎 2019 Airline Delays and Cancellations – Kaggle](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
+
+---
+
+## 👩‍💻 Autoría
+
+**Patricia Alonso Castillo**  
+Comisión 61750 – Curso de Ciencia de Datos (2025)  
+Proyecto Final – CODERHOUSE
 
 ✏️ Proyecto realizado por Patricia Alonso Castillo – Comisión 61750  
 Curso de Ciencia de Datos – 2025
