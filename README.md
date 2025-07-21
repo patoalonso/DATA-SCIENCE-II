@@ -27,8 +27,7 @@ Debido al límite de tamaño de GitHub, el archivo `vuelos_2019.csv` se encuentr
 🔗 [Descargar CSV desde Google Drive](https://drive.google.com/file/d/1h1d5C24Pb_fsC0bNtqDy9TMK2W4xdokY/view?usp=drive_link)
 
 📎 **Acceso al modelo entrenado (`modelo_knn_pipeline.pkl`)**  
-El modelo final en formato `.pkl` también puede descargarse desde Drive:  
-🔗 [Descargar modelo KNN serializado](AQUÍ_VA_EL_ENLACE_A_TU_PKL)
+🔗 [Descargar modelo KNN serializado desde Drive](https://drive.google.com/file/d/1DKpBABC5tTJNzIQYaRMbHUJUfgmiBgXd/view?usp=drive_link)
 
 ---
 
@@ -52,9 +51,6 @@ Los datos fueron obtenidos desde Kaggle:
 **Patricia Alonso Castillo**  
 Comisión 61750 – Curso de Ciencia de Datos (2025)  
 Proyecto Final – CODERHOUSE
-
-✏️ Proyecto realizado por Patricia Alonso Castillo – Comisión 61750  
-Curso de Ciencia de Datos – 2025
 
 
 
