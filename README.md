@@ -51,7 +51,12 @@ Si deseás probar la funcionalidad completa, descargá el notebook original (�
 
 ## 🧠 Modelo Recomendado
 
-Tras evaluar múltiples algoritmos (Regresión Logística, Árbol de Decisión, XGBoost, KNN), el modelo **K-Nearest Neighbors (k=5)** fue el más efectivo para detectar vuelos demorados, priorizando la métrica **Recall**, que mide la capacidad del modelo para **identificar casos positivos reales**.
+Se aplicó un método de Ensemble Modeling (Voting Classifier), que combina las predicciones de varios algoritmos (Árbol de Decisión, KNN y XGBoost).
+Este enfoque busca mejorar la robustez del sistema y encontrar un mejor equilibrio entre Recall y F1-Score.
+
+Aunque no superó al modelo KNN en detección de vuelos demorados, el ensemble ofreció un rendimiento intermedio sólido y puede ser considerado como alternativa si se prioriza estabilidad y consenso entre modelos.
+
+📌 Tras evaluar múltiples algoritmos (Regresión Logística, Árbol de Decisión, XGBoost, KNN), el modelo **K-Nearest Neighbors (k=5)** fue el más efectivo para detectar vuelos demorados, priorizando la métrica **Recall**, que mide la capacidad del modelo para **identificar casos positivos reales**.
 
 Este enfoque resulta útil en contextos donde es **preferible emitir una alerta preventiva** ante una posible demora, aunque implique algunas falsas alarmas.
 
